@@ -26,10 +26,3 @@ base_denominators.each do |base_denominator|
   end
   dp_line __LINE__
 end
-
-__END__
-下記はTbpgrUtils gemの機能
-__LINE__は
-
-https://rubygems.org/gems/tbpgr_utils
-https://github.com/tbpgr/tbpgr_utils
