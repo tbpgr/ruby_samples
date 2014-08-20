@@ -9,3 +9,4 @@
 |[unit_fractions](unit_fractions)|unit fraction sequence|
 |[generate_hoge_hige_hage_dirs](generate_hoge_hige_hage_dirs)|create hoge hige hage dirs|
 |[quine_samples](quine_samples)|quine samples|
+|[hq9p](hq9p)|HQ9+ language sample impl|
