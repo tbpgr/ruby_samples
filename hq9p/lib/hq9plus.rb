@@ -1,6 +1,6 @@
 class HQ9Plus
   def initialize(file = nil)
-    @src = File.read(file)
+    @src = File.read(file) if file
     @i = 0
   end
 
@@ -11,6 +11,9 @@ class HQ9Plus
         puts hello
       when 'Q'
         puts quine
+      # original
+      when 'S'
+        puts show
       when '9'
         puts nine
       when '+'
@@ -25,6 +28,10 @@ class HQ9Plus
 
   def quine
     @src
+  end
+
+  def show
+    @i
   end
 
   def nine

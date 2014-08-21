@@ -11,6 +11,10 @@ Hello, world!
 
 * sample
 
+~~~
+H
+~~~
+
 ~~~ruby
 $ ruby lib/hq9plus.rb samples/sample1.hq9
 Hello, world!
@@ -22,9 +26,31 @@ Quine。自身のソースコードを出力する。
 
 * sample
 
+~~~
+Q
+~~~
+
 ~~~ruby
 $ ruby lib/hq9plus.rb samples/sample2.hq9
 Q
+~~~
+
+### S
+
+Show。オリジナル文法。「+」でインクリメントしている内容を表示する。
+
+* sample
+
+~~~
++++S+++S+++SS
+~~~
+
+~~~ruby
+$ ruby lib/hq9plus.rb samples/sample5.hq9
+3
+6
+9
+9
 ~~~
 
 ### 9
@@ -33,6 +59,9 @@ Q
 
 * sample
 
+~~~
+9
+~~~
 
 ~~~ruby
 $ ruby lib/hq9plus.rb samples/sample3.hq9
@@ -245,7 +274,13 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 
 * sample
 
-※内部的にインクリメントしているが確認するすべはない
+~~~
++++
+~~~
+
+※内部的にインクリメントしているがオリジナルのHQ9+の仕様では確認するすべはない。
+このサンプルでは内容を確認するための、 「S」 命令を追加してある。
+
 
 ~~~ruby
 $ ruby lib/hq9plus.rb samples/sample4.hq9

@@ -321,4 +321,49 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
       end
     end
   end
+
+  context :show do
+    cases = [
+      {
+        case_no: 1,
+        case_title: "valid case",
+        before_expected: 0,
+        after1_expected: 1,
+        after2_expected: 2
+      }
+    ]
+
+    cases.each do |c|
+      it "|case_no=#{c[:case_no]}|case_title=#{c[:case_title]}" do
+        begin
+          case_before c
+
+          # -- given --
+          hq9_plus = HQ9Plus.new
+
+          # -- when --
+          before_actual = hq9_plus.show
+          hq9_plus.increment
+          after1_actual = hq9_plus.show
+          hq9_plus.increment
+          after2_actual = hq9_plus.show
+
+          # -- then --
+          expect(before_actual).to eq(c[:before_expected])
+          expect(after1_actual).to eq(c[:after1_expected])
+          expect(after2_actual).to eq(c[:after2_expected])
+        ensure
+          case_after c
+        end
+      end
+
+      def case_before(c)
+        # implement each case before
+      end
+
+      def case_after(c)
+        # implement each case after
+      end
+    end
+  end
 end
