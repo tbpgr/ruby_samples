@@ -11,5 +11,6 @@
 |[hq9p](hq9p)|HQ9+ language sample impl|
 |[quine_samples](quine_samples)|quine samples|
 |[ruby_read_codeiq_rss](ruby_read_codeiq_rss)|read codeiq rss|
-|[newton_method](unit_fractions)|unit fraction sequence|
+|[unit_fractions](unit_fractions)|unit fraction sequence|
 |[newton_method](newton_method)|newton_method sample|
+|[weather_hacks](weather__hacks)|get livedoor weather_hacks|
