@@ -13,4 +13,4 @@
 |[ruby_read_codeiq_rss](ruby_read_codeiq_rss)|read codeiq rss|
 |[unit_fractions](unit_fractions)|unit fraction sequence|
 |[newton_method](newton_method)|newton_method sample|
-|[weather_hacks](weather__hacks)|get livedoor weather_hacks|
+|[weather_hacks](weather_hacks)|get livedoor weather_hacks|
