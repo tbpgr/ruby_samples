@@ -9,8 +9,9 @@
 |[generate_hoge_hige_hage_dirs](generate_hoge_hige_hage_dirs)|create hoge hige hage dirs|
 |[gviz](gviz)|Gviz samples|
 |[hq9p](hq9p)|HQ9+ language sample impl|
+|[newton_method](newton_method)|newton_method sample|
 |[quine_samples](quine_samples)|quine samples|
 |[ruby_read_codeiq_rss](ruby_read_codeiq_rss)|read codeiq rss|
+|[string_concat_samples](string_concat_samples)|String concat samples|
 |[unit_fractions](unit_fractions)|unit fraction sequence|
-|[newton_method](newton_method)|newton_method sample|
 |[weather_hacks](weather_hacks)|get livedoor weather_hacks|
