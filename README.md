@@ -11,6 +11,7 @@
 |[gviz](gviz)|Gviz samples|
 |[hq9p](hq9p)|HQ9+ language sample impl|
 |[implicit_send_call](implicit_send_call)|implicit_send_call|
+|[method/src_location](method/src_location)|--|
 |[newton_method](newton_method)|newton_method sample|
 |[quine_samples](quine_samples)|quine samples|
 |[ruby_read_codeiq_rss](ruby_read_codeiq_rss)|read codeiq rss|
