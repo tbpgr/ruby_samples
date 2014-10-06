@@ -1,4 +1,4 @@
 # Object
 ## Method List
 
-* [Object#public_send](./public_send)
+* [Object#public_send](./public_send.rb)
