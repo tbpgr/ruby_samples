@@ -14,6 +14,8 @@
 |[method/src_location](method/src_location)|--|
 |[newton_method](newton_method)|newton_method sample|
 |[object](object)|object|
+|[object_space](object_space)|object_space|
+|[proc](proc)|proc|
 |[quine_samples](quine_samples)|quine samples|
 |[ruby_read_codeiq_rss](ruby_read_codeiq_rss)|read codeiq rss|
 |[string_concat_samples](string_concat_samples)|String concat samples|
