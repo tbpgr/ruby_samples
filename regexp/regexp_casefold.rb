@@ -1,13 +1,10 @@
 require 'tbpgr_utils'
 
-/(h.ge)(h.ge)(h.ge)/ =~ "@hogehigehage@"
 bulk_puts_eval binding, <<-EOS
-Regexp.last_match
-Regexp.last_match(0)
-Regexp.last_match(1)
-Regexp.last_match(2)
-Regexp.last_match(3)
-Regexp.last_match(4)
+/h.ge/i.casefold?
+/h.ge/.casefold?
+Regexp.compile("h.ge", Regexp::IGNORECASE).casefold?
+Regexp.compile("h.ge").casefold?
 EOS
 
 __END__
