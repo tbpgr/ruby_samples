@@ -22,3 +22,5 @@
 |[string_scanner](string_scanner)|string_scanner|
 |[unit_fractions](unit_fractions)|unit fraction sequence|
 |[weather_hacks](weather_hacks)|get livedoor weather_hacks|
+
+test
