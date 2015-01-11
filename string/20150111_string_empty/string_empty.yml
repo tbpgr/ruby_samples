@@ -1,0 +1,15 @@
+[Ruby]Ruby | String | empty
+
+**概要
+String#empty
+**詳細
+
+***サンプルコード
+>|ruby|
+||<
+**出力
+>|csh|
+||<
+**参照
+http://docs.ruby-lang.org/ja/2.1.0/method/String/i/empty.html
+http://docs.ruby-lang.org/ja/2.1.0/method/String/i/empty=3f.html
