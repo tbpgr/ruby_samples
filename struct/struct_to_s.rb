@@ -1,0 +1,20 @@
+require 'tbpgr_utils'
+
+Person = Struct.new(:name, :age)
+tanaka = Person.new("tanaka", 34)
+sato = Person.new("sato", 43)
+
+bulk_puts_eval binding, <<-EOS
+tanaka.to_s
+sato.to_s
+tanaka.to_s == tanaka.inspect
+sato.to_s == sato.inspect
+EOS
+
+__END__
+下記はTbpgrUtils gemの機能
+bulk_puts_eval
+
+https://rubygems.org/gems/tbpgr_utils
+https://github.com/tbpgr/tbpgr_utils
+ 
